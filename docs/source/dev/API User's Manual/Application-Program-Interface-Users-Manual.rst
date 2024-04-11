@@ -109,6 +109,6 @@ Copyright ⓒ 2001~2023 Altibase Corp. All Rights Reserved.<br>
 .. toctree::
    :maxdepth: 3
    :caption: API User's Manual
-   :golb:
+   :glob:
 
-   *
+   ./*

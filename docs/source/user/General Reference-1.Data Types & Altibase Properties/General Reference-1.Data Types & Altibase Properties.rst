@@ -6,7 +6,7 @@ General Reference-1.Data Types & Altibase Properties
     :caption: General Reference 1
     :glob:
 
-    *
+    ./*
 
 #### Altibase 7.1
 

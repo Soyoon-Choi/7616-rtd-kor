@@ -10,14 +10,14 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-import os
+# import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
 
 # -- Project information -----------------------------------------------------
 
-project = '7616-multiLang'
+project = '7616-rtd-kor'
 copyright = '2024, Soyoon Choi'
 author = 'Soyoon Choi'
 
@@ -85,24 +85,3 @@ html_css_files = [
 html_favicon = 'faviconV2.ico'
 
 suppress_warnings = ["myst.header"]
-
-
-# latex_engine = "xelatex"
-# latex_elements = {
-#     'fontpkg': r'''
-# \setmainfont{DejaVu Serif}
-# \setsansfont{DejaVu Sans}
-# \setmonofont{DejaVu Sans Mono}
-# \usepackage{kotex}
-# ''',
-#     'preamble': r'''
-# \usepackage[titles]{tocloft}
-# \cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
-# \setlength{\cftchapnumwidth}{0.75cm}
-# \setlength{\cftsecindent}{\cftchapnumwidth}
-# \setlength{\cftsecnumwidth}{1.25cm}
-# ''',
-#     'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
-#     'printindex': r'\footnotesize\raggedright\printindex',
-# }
-# latex_show_urls = 'footnote'
