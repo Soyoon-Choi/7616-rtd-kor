@@ -21,7 +21,7 @@ Copyright ⓒ 2001~2023 Altibase Corp. All Rights Reserved.
    :caption: Administartor's Manual
    :glob:
 
-   administrators-manual/*
+   ./*
 
 
 
