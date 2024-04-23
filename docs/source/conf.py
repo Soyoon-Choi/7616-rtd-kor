@@ -89,5 +89,5 @@ suppress_warnings = ["myst.header"]
 latex_engine = 'xelatex'
 latex_use_xindy = False
 latex_elements = {
-    'preamble': '\\usepackage{kotex}\n',
+    'preamble': '\\usepackage{fontspec}\n',
 }
