@@ -85,3 +85,9 @@ html_css_files = [
 html_favicon = 'faviconV2.ico'
 
 suppress_warnings = ["myst.header"]
+
+latex_engine = 'xelatex'
+latex_use_xindy = False
+latex_elements = {
+    'preamble': '\\usepackage{kotex}\n',
+}
