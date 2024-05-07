@@ -1,11 +1,9 @@
-Release Notes
+릴리즈 노트
 ======================
-
-Release Notes Link
 
 .. toctree::
    :maxdepth: 1
-   :caption: Release Notes
+   :caption: 릴리즈 노트
    :glob:
 
-   ./*
+   *

@@ -1,52 +1,6 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+# Altibase 7.3.0.0.1 Release Notes
 
-
-- [Altibase 7.3.0.0.1 Release Notes](#altibase-73001-release-notes)
-  - [1. System Requirements](#1-system-requirements)
-    - [Minimum Hardware Requirements](#minimum-hardware-requirements)
-    - [Operating Systems and Platforms](#operating-systems-and-platforms)
-  - [2. Release Notes](#2-release-notes)
-    - [2.1 New Features](#21-new-features)
-      - [2.1.1 AKU](#211-aku)
-      - [2.1.2 AltiShapeLoader 1.0](#212-altishapeloader-10)
-      - [2.1.3 Partial Support for JDBC 4.2](#213-partial-support-for-jdbc-42)
-      - [2.1.4 OpenSSL 3.0.8 Support](#214-openssl-308-support)
-      - [2.1.5 Functionality Improvement - SQL Extension](#215-functionality-improvement---sql-extension)
-      - [2.1.6 Functionality Improvement - Spatial SQL](#216-functionality-improvement---spatial-sql)
-      - [2.1.7 Functionality Improvement - Replication](#217-functionality-improvement---replication)
-      - [2.1.8  Functionality Improvement - Application Development Interface](#218--functionality-improvement---application-development-interface)
-      - [2.1.9 Functionality Improvement - Stored Procedures](#219-functionality-improvement---stored-procedures)
-      - [2.1.10 Functionality Improvement - Utilities](#2110-functionality-improvement---utilities)
-      - [2.1.11 Functionality Improvement - JDBC Adapter, oraAdpater](#2111-functionality-improvement---jdbc-adapter-oraadpater)
-      - [2.1.12 Performance Improvement](#2112-performance-improvement)
-      - [2.1.13 High Availability](#2113-high-availability)
-      - [2.1.14 DBeaver Package](#2114-dbeaver-package)
-    - [2.2 Changes](#22-changes)
-      - [2.2.1 Database Version](#221-database-version)
-      - [2.2.2 Compatibility](#222-compatibility)
-      - [2.2.3 Others](#223-others)
-      - [2.2.4 Properties](#224-properties)
-      - [2.2.5 Meta Tables](#225-meta-tables)
-      - [2.2.6 Performance Views](#226-performance-views)
-    - [2.3 Packages](#23-packages)
-    - [2.4 Download](#24-download)
-      - [Package](#package)
-      - [Manual](#manual)
-      - [Installation](#installation)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-</br>
-
-</br>
-
-</br>
-
-Altibase 7.3.0.0.1 Release Notes
-===============================
-
-**(2023.08)** </br>
+**(2023.08)**
 
 
 

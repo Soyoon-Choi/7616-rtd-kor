@@ -1,35 +1,8 @@
 # Altibase 7.3.0.0.3 Patch Notes
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## New Features
 
-# **Table of Contents** 
-
-- [New Features](#new-features)
-  - [BUG-50654 로그 파일 준비 쓰레드(Log File Prepare Thread)의 병목현상 개선](#bug-50654)
-  - [BUG-50682 Windows client에서 OpenSSL 지원](#bug-50682)
-- [Fixed Bugs](#fixed-bugs)
-  - [BUG-50527 NVL_EQUAL(), NVL_NOT_EQUAL() 함수의 인자로 인덱스 컬럼에 대한 연산식을 적용할 경우 서버가 비정상 종료하는 경우가 있습니다.](#bug-50527)
-  - [BUG-50542 하이브리드 파티션드 테이블이면서 GEOMETRY 컬럼 또는 LOB 컬럼이 포함되고 update trigger로 설정 된 경우, multiple update 구문 수행 시 비정상 종료 발생 합니다.](#bug-50542)
-  - [BUG-50621 함수 기반 인덱스를 생성하는 수식이 지나치게 긴 경우, 서버 비정상 종료가 발생합니다.](#bug-50621)
-  - [BUG-50659 ORDER BY 가 SELECT 절의 외부 참조가 있는 SUBQUERY를 alias로 참조 시 결과 오류가 발생합니다.](#bug-50659)
-  - [BUG-50663 LobCursorList 관리 함수의 동시성 문제를 수정합니다.](#bug-50663)
-  - [BUG-50670 OpenSSL을 이용하는 환경에서 오류 메시지 출력 부분에 발견된 오류를 수정합니다.](#bug-50670)
-  - [BUG-50686 V$TIME_ZONE_NAMES에서 America/Porto_Velho 타임존의 UTC_OFFSET 값이 올바르지 않습니다.](#bug-50686)
-  - [BUG-50697  JDBC 에서 PreparedStatement를 이용하여 ping 쿼리 사용시 메모리 누수가 발생합니다.](#bug-50697)
-  - [BUG-50700 하이브리드 파티션드 테이블에서 컬럼 제약을 체크하는 로직에서 잘못된 row offset 정보로 인해 잘못된(invalid) 메모리 접근의 오류가 발생할 수 있습니다.](#bug-50700)
-- [Changes](#changes)
-  - [Version Info](#version-info)
-  - [호환성](#%ED%98%B8%ED%99%98%EC%84%B1)
-  - [프로퍼티](#%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0)
-  - [성능 뷰](#%EC%84%B1%EB%8A%A5-%EB%B7%B0)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-New Features
-============
-
-### BUG-50654<a name=bug-50654></a> 로그 파일 준비 쓰레드(Log File Prepare Thread)의 병목현상 개선
+### BUG-50654 로그 파일 준비 쓰레드(Log File Prepare Thread)의 병목현상 개선
 
 -   **module** : sm
 -   **Category** : Enhancement
@@ -54,7 +27,7 @@ New Features
     -   Compile Option
     -   Error Code
 
-### BUG-50682<a name=bug-50682></a> Windows 용 클라이언트에서 OpenSSL 지원
+### BUG-50682 Windows 용 클라이언트에서 OpenSSL 지원
 
 -   **module** : mm
 
@@ -81,10 +54,9 @@ New Features
     -   Compile Option
     -   Error Code
 
-Fixed Bugs
-==========
+## Fixed Bugs
 
-### BUG-50527<a name=bug-50527></a> NVL_EQUAL(), NVL_NOT_EQUAL() 함수의 인자로 인덱스 컬럼에 대한 연산식을 적용할 경우 서버가 비정상 종료하는 경우가 있습니다.
+### BUG-50527 NVL_EQUAL(), NVL_NOT_EQUAL() 함수의 인자로 인덱스 컬럼에 대한 연산식을 적용할 경우 서버가 비정상 종료하는 경우가 있습니다.
 
 -   **module** : mt
 
@@ -111,7 +83,7 @@ Fixed Bugs
     -   Compile Option
     -   Error Code
 
-### BUG-50542<a name=bug-50542></a> 하이브리드 파티션드 테이블이면서 GEOMETRY 컬럼 또는 LOB 컬럼이 포함되고 update trigger로 설정 된 경우, multiple update 구문 수행 시 비정상 종료 발생 합니다.
+### BUG-50542 하이브리드 파티션드 테이블이면서 GEOMETRY 컬럼 또는 LOB 컬럼이 포함되고 update trigger로 설정 된 경우, multiple update 구문 수행 시 비정상 종료 발생 합니다.
 
 -   **module** : sm
 
@@ -173,7 +145,7 @@ Fixed Bugs
   -   Compile Option
   -   Error Code
 
-### BUG-50621<a name=bug-50621></a> 함수 기반 인덱스를 생성하는 수식이 지나치게 긴 경우, 서버 비정상 종료가 발생합니다.
+### BUG-50621 함수 기반 인덱스를 생성하는 수식이 지나치게 긴 경우, 서버 비정상 종료가 발생합니다.
 
 -   **module** : qp-ddl-dcl-pvo
 
@@ -200,7 +172,7 @@ Fixed Bugs
     -   Compile Option
     -   Error Code
 
-### BUG-50659<a name=bug-50659></a> ORDER BY 가 SELECT 절의 외부 참조가 있는 SUBQUERY를 alias로 참조 시 결과 오류가 발생합니다.
+### BUG-50659 ORDER BY 가 SELECT 절의 외부 참조가 있는 SUBQUERY를 alias로 참조 시 결과 오류가 발생합니다.
 
 -   **module** : qp
 
@@ -306,7 +278,7 @@ Fixed Bugs
     -   Compile Option
     -   Error Code
 
-### BUG-50663<a name=bug-50663></a> LobCursorList 관리 함수의 동시성 문제를 수정합니다.
+### BUG-50663 LobCursorList 관리 함수의 동시성 문제를 수정합니다.
 
 -   **module** : sm
 
@@ -333,7 +305,7 @@ Fixed Bugs
     -   Compile Option
     -   Error Code
 
-### BUG-50670<a name=bug-50670></a> OpenSSL을 이용하는 환경에서 오류 메시지 출력 부분에 발견된 오류를 수정합니다.
+### BUG-50670 OpenSSL을 이용하는 환경에서 오류 메시지 출력 부분에 발견된 오류를 수정합니다.
 
 -   **module** : cm
 
@@ -360,7 +332,7 @@ Fixed Bugs
     -   Compile Option
     -   Error Code
 
-### BUG-50686<a name=bug-50686></a> V$TIME_ZONE_NAMES에서 America/Porto_Velho 타임존의 UTC_OFFSET 값이 올바르지 않습니다.
+### BUG-50686 V$TIME_ZONE_NAMES에서 America/Porto_Velho 타임존의 UTC_OFFSET 값이 올바르지 않습니다.
 
 -   **module** : mt
 
@@ -405,7 +377,7 @@ Fixed Bugs
     -   Compile Option
     -   Error Code
 
-### BUG-50697<a name=bug-50697></a>  JDBC 에서 PreparedStatement를 이용하여 ping 쿼리 사용시 메모리 누수가 발생합니다.
+### BUG-50697 JDBC 에서 PreparedStatement를 이용하여 ping 쿼리 사용시 메모리 누수가 발생합니다.
 
 -   **module** : mm-jdbc
 
@@ -453,7 +425,7 @@ Fixed Bugs
     -   Compile Option
     -   Error Code
 
-### BUG-50700<a name=bug-50700></a> 하이브리드 파티션드 테이블에서 컬럼 제약을 체크하는 로직에서 잘못된 row offset 정보로 인해 잘못된(invalid) 메모리 접근의 오류가 발생할 수 있습니다.
+### BUG-50700 하이브리드 파티션드 테이블에서 컬럼 제약을 체크하는 로직에서 잘못된 row offset 정보로 인해 잘못된(invalid) 메모리 접근의 오류가 발생할 수 있습니다.
 
 -   **module** : qp
 
@@ -482,8 +454,7 @@ Fixed Bugs
     -   Compile Option
     -   Error Code
 
-Changes
-=======
+## Changes
 
 ### Version Info
 

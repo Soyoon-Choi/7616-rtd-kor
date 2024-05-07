@@ -1,27 +1,6 @@
 # Altibase 7.3.0.0.4 Patch Notes
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [New Features](#new-features)
-    - [BUG-50695 aku에서 6노드 지원](#bug-50695)
-    - [BUG-50703 Row Referencing 절을 사용하는 트리거에서 사용하지 않는 컬럼을 내부적으로 복사하지 않도록 개선합니다.](#bug-50703)
-    - [BUG-50713 잘못된 패킷으로 Protocol header error가 발생한 경우, 에러메시지에 헤더 내용 출력하도록 개선합니다.](#bug-50713)
-- [Fixed Bugs](#fixed-bugs)
-    - [BUG-50660 REFERENCING NEW ROW절을 사용하는 트리거가 참조하 테이블의 테이블 스페이스를 변경 후 트리거 동작시, 서버가 비정상 종료하는 경우가 있어서 수정합니다.](#bug-50660)
-    - [BUG-50714 Package의 constant 또는 nocopy 옵션이 있는 변수를 직접 변경할 때 잘못 동작하는 문제를 수정합니다.](#bug-50714)
-    - [BUG-50729 종료된 쓰레드의 스택 크기가 v\$memstat 에서 계속 출력됩니다.](#bug-50729)
-    - [BUG-50758 APRE에서 double quote 문자에 대한 escape 처리 누락](#bug-50758)
-- [Changes](#changes)
-    - [Version Info](#version-info)
-    - [호환성](#%ED%98%B8%ED%99%98%EC%84%B1)
-    - [프로퍼티](#%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0)
-    - [성능 뷰](#%EC%84%B1%EB%8A%A5-%EB%B7%B0)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-New Features
-============
+## New Features
 
 ### BUG-50695<a name=bug-50695></a> aku에서 6노드 지원
 
@@ -123,8 +102,7 @@ New Features
         -   수정전 : ERR-7101d(errno=0) Protocol header error.(TCP 127.0.0.1:41462)
         -   수정후 : ERR-710cc(errno=0) Protocol header error.(TCP 127.0.0.1:41462, 0, 3132333435363738393031323334353637383930)
 
-Fixed Bugs
-==========
+## Fixed Bugs
 
 ### BUG-50660<a name=bug-50660></a> REFERENCING NEW ROW절을 사용하는 트리거가 참조하 테이블의 테이블 스페이스를 변경 후 트리거 동작시, 서버가 비정상 종료하는 경우가 있어서 수정합니다.
 
@@ -361,8 +339,7 @@ Fixed Bugs
     -   Compile Option
     -   Error Code
 
-Changes
-=======
+## Changes
 
 ### Version Info
 

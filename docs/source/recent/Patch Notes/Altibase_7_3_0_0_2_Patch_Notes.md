@@ -1,43 +1,9 @@
 # Altibase 7.3.0.0.2 Patch Notes
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## New Features
 
-- [New Features](#new-features)
-    - [BUG-50557 Windows 환경에서의 BIGINT 배열 저장프로시저에 대한 long long 타입 지원](#bug-50557)
-    - [BUG-50604 PSM 내 구문에서 대소문자를 구분하도록 지원합니다.](#bug-50604)
-    - [BUG-50605 Windows 용 클라이언트를 제공합니다.](#bug-50605)
-    - [BUG-50606 Maven Central Repository에 Altibase 7.3.0.0.2 JDBC 드라이버를 업로드 합니다.](#bug-50606)
-    - [BUG-50608 Private synonym을 생성하면서 synonym과 객체의 이름을 비교할 때 대소문자를 구분하도록 수정합니다.](#bug-50608)
-- [Fixed Bugs](#fixed-bugs)
-    - [BUG-49699 Offline Adapter 수행 로그에 SPLIT, MERGE, DROP PARTITION의 DDL이 포함되어 있는 경우, BUILD OFFLINE META 명령이 실패합니다.](#bug-49699)
-    - [BUG-50365 하이브리드 파티션드 테이블에서 컬럼 제약을 체크하는 로직에 서버가 비정상 종료할 수 있는 버그가 있어서 수정합니다.](#bug-50365)
-    - [BUG-50413 DDL과 alter replication RECEIVE\_ONLY, DDL\_REPLICATE 구문 수행시 lock timeout이 발생할수 있습니다.](#bug-50413)
-    - [BUG-50435 다중 서브 쿼리의 최적화 과정 중 뷰 머지(view merge) 단계에서 예상치 못한 오류가 발생합니다.](#bug-50435)
-    - [BUG-50442 파티션드 테이블의 simple fast execution시 비정상 종료](#bug-50442)
-    - [BUG-50554 AUDIT\_OUTPUT\_METHOD가 1일때 audit 기록에서 누락된 에러 코드가 있습니다.](#bug-50554)
-    - [BUG-50576 이중화 파티션이 1개인 경우 해당 파티션을 삭제할 수 없도록 수정합니다.](#bug-50576)
-    - [BUG-50581 TIMESTAMPADD 함수를 소문자로 사용하는 경우 [ERR-31129 : Procedure or function not found] 오류가 발생합니다.](#bug-50581)
-    - [BUG-50589 트레이스 로그가 altibase_boot.log-2까지 기록된 후 서버 재시작 시, altibase_boot.log-0부터 다시 기록되는 문제가 있습니다.](#bug-50589)
-    - [BUG-50595 동일한 NO_PLAN_CACHE 힌트를 사용하는 쿼리를 여러번 수행할 때 메모리가 증가하는 문제가 있습니다.](#bug-50595)
-    - [BUG-50597 jdbc에서 date 컬럼을 fetch할때 타임존에 따라 의도한 값이 리턴되지 않을 수 있습니다.](#bug-50597)
-    - [BUG-50601 집계 함수를 포함하는 SubQuery Unnest 동작에 결과 오류가 발생합니다.](#bug-50601)
-    - [BUG-50607 PSM에서 LABEL로 GOTO할 때 SQL cancel이 동작하지 않을 수 있습니다.](#bug-50607)
-    - [BUG-50615 WHERE 절에 여러 개의 서브쿼리와 OR 조건을 사용한 경우, SubQuery Unnest 동작에서 결과 오류가 발생할 수 있습니다.](#bug-50615)
-    - [BUG-50617 이중화 SYNC 수행 중 연속적으로 충돌이 발생시, 충돌 방지 정책에 따라 Replace가 연속으로 수행되면 SYNC Fail이 발생할 수 있습니다.](#bug-50617)
-    - [BUG-50642 Linux kernel 5에서 altiMon 실행 시, com.altibase.picl.LibLoader.OsNotSupportedException 에러가 발생합니다.](#bug-50642)
-- [Changes](#changes)
-    - [Version Info](#version-info)
-    - [호환성](#%ED%98%B8%ED%99%98%EC%84%B1)
-    - [프로퍼티](#%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0)
-    - [성능 뷰](#%EC%84%B1%EB%8A%A5-%EB%B7%B0)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-New Features
-============
-
-### BUG-50557<a name=bug-50557></a> Windows 환경에서의 BIGINT 배열 저장프로시저에 대한 long long 타입 지원
+### BUG-50557
+Windows 환경에서의 BIGINT 배열 저장프로시저에 대한 long long 타입 지원
 
 -   **module** : mm-apre
 
@@ -67,8 +33,8 @@ New Features
     -   Property
     -   Compile Option
     -   Error Code
-
-### BUG-50604<a name=bug-50604></a> PSM 내 구문에서 대소문자를 구분하도록 지원합니다.
+(bug50604)=
+### BUG-50604<a name="bug-50604"></a> PSM 내 구문에서 대소문자를 구분하도록 지원합니다.
 
 -   **module** : qp-psm-trigger-pvo
 
@@ -133,7 +99,8 @@ New Features
     -   Compile Option
 -   Error Code
 
-### BUG-50605<a name=bug-50605></a> Windows 용 클라이언트를 제공합니다.
+### BUG-50605
+Windows 용 클라이언트를 제공합니다.
 
 -   **module** : ul-odbc
 
@@ -161,7 +128,7 @@ New Features
     -   Compile Option
     -   Error Code
 
-### BUG-50606<a name=bug-50606></a> Maven Central Repository에 Altibase 7.3.0.0.2 JDBC 드라이버를 업로드 합니다.
+### BUG-50606<a name="bug-50606"></a> Maven Central Repository에 Altibase 7.3.0.0.2 JDBC 드라이버를 업로드 합니다.
 
 -   **module** : mm-jdbc
 
@@ -188,7 +155,7 @@ New Features
     -   Compile Option
     -   Error Code
 
-### BUG-50608<a name=bug-50608></a> Private synonym을 생성하면서 synonym과 객체의 이름을 비교할 때 대소문자를 구분하도록 수정합니다.
+### BUG-50608<a name="bug-50608"></a> Private synonym을 생성하면서 synonym과 객체의 이름을 비교할 때 대소문자를 구분하도록 수정합니다.
 
 -   **module** : qp-ddl-dcl-pvo
 
@@ -232,10 +199,9 @@ New Features
     -   Compile Option
     -   Error Code
 
-Fixed Bugs
-==========
+## Fixed Bugs
 
-### BUG-49699<a name=bug-49699></a> Offline Adapter 수행 로그에 SPLIT, MERGE, DROP PARTITION의 DDL이 포함되어 있는 경우, BUILD OFFLINE META 명령이 실패합니다.
+### BUG-49699<a name="bug-49699"></a> Offline Adapter 수행 로그에 SPLIT, MERGE, DROP PARTITION의 DDL이 포함되어 있는 경우, BUILD OFFLINE META 명령이 실패합니다.
 
 -   **module** : rp-jdbcAdapter
 
@@ -277,7 +243,7 @@ Fixed Bugs
            *Action: Check the table name and user name for offline replication and configure the replication that matches the meta file.
            ```
 
-### BUG-50365<a name=bug-50365></a> 하이브리드 파티션드 테이블에서 컬럼 제약을 체크하는 로직에 서버가 비정상 종료할 수 있는 버그가 있어서 수정합니다.
+### BUG-50365<a name="bug-50365"></a> 하이브리드 파티션드 테이블에서 컬럼 제약을 체크하는 로직에 서버가 비정상 종료할 수 있는 버그가 있어서 수정합니다.
 
 -   **module** : qp
 
@@ -304,7 +270,7 @@ Fixed Bugs
     -   Compile Option
     -   Error Code
 
-### BUG-50413<a name=bug-50413></a> 이중화 대상 테이블에 DDL 수행 및 DDL 복제, alter replication ... RECEIVE_ONLY 구문 수행시, lock timeout이 발생합니다.
+### BUG-50413<a name="bug-50413"></a> 이중화 대상 테이블에 DDL 수행 및 DDL 복제, alter replication ... RECEIVE_ONLY 구문 수행시, lock timeout이 발생합니다.
 
 -   **module** : rp
 
@@ -330,7 +296,7 @@ Fixed Bugs
     -   Compile Option
     -   Error Code
 
-### BUG-50435<a name=bug-50435></a> 다중 서브 쿼리의 최적화 과정 중 뷰 머지(view merge) 단계에서 예상치 못한 오류가 발생합니다.
+### BUG-50435<a name="bug-50435"></a> 다중 서브 쿼리의 최적화 과정 중 뷰 머지(view merge) 단계에서 예상치 못한 오류가 발생합니다.
 
 -   **module** : qp
 
@@ -381,7 +347,7 @@ Fixed Bugs
     -   Compile Option
     -   Error Code
 
-### BUG-50442<a name=bug-50442></a> 파티션드 테이블의 simple fast execution시 비정상 종료
+### BUG-50442<a name="bug-50442"></a> 파티션드 테이블의 simple fast execution시 비정상 종료
 
 -   **module** : qp
 
@@ -430,7 +396,7 @@ Fixed Bugs
     -   Compile Option
     -   Error Code
 
-### BUG-50554<a name=bug-50554></a> AUDIT\_OUTPUT\_METHOD가 1일때 audit 기록에서 누락된 에러 코드가 있습니다.
+### BUG-50554<a name="bug-50554"></a> AUDIT\_OUTPUT\_METHOD가 1일때 audit 기록에서 누락된 에러 코드가 있습니다.
 
 -   **module** : mm
 
@@ -464,7 +430,7 @@ Fixed Bugs
     -   Compile Option
     -   Error Code
 
-### BUG-50576<a name=bug-50576></a> 이중화 파티션이 1개인 경우 해당 파티션을 삭제할 수 없도록 수정합니다.
+### BUG-50576<a name="bug-50576"></a> 이중화 파티션이 1개인 경우 해당 파티션을 삭제할 수 없도록 수정합니다.
 
 -   **module** : rp
 
@@ -512,7 +478,7 @@ Fixed Bugs
                  - To drop the partition without dropping the replication object, add another replication partition first and then try again.
         ```
 
-### BUG-50581<a name=bug-50581></a> TIMESTAMPADD 함수를 소문자로 사용하는 경우 [ERR-31129 : Procedure or function not found] 오류가 발생합니다.
+### BUG-50581<a name="bug-50581"></a> TIMESTAMPADD 함수를 소문자로 사용하는 경우 [ERR-31129 : Procedure or function not found] 오류가 발생합니다.
 
 -   **module** : qp
 
@@ -562,7 +528,7 @@ Fixed Bugs
     -   Compile Option
     -   Error Code
 
-### BUG-50589<a name=bug-50589></a> 트레이스 로그가 altibase_boot.log-2까지 기록된 후 서버 재시작 시, altibase_boot.log-0부터 다시 기록되는 문제가 있습니다.
+### BUG-50589<a name="bug-50589"></a> 트레이스 로그가 altibase_boot.log-2까지 기록된 후 서버 재시작 시, altibase_boot.log-0부터 다시 기록되는 문제가 있습니다.
 
 -   **module** : id
 
@@ -589,7 +555,7 @@ Fixed Bugs
     -   Compile Option
     -   Error Code
 
-### BUG-50595<a name=bug-50595></a> 동일한 NO_PLAN_CACHE 힌트를 사용하는 쿼리를 여러번 수행할 때 메모리가 증가하는 문제가 있습니다.
+### BUG-50595<a name="bug-50595"></a> 동일한 NO_PLAN_CACHE 힌트를 사용하는 쿼리를 여러번 수행할 때 메모리가 증가하는 문제가 있습니다.
 
 -   **module** : mm-plancache
 
@@ -616,7 +582,7 @@ Fixed Bugs
     -   Compile Option
     -   Error Code
 
-### BUG-50597<a name=bug-50597></a> jdbc에서 date 컬럼을 fetch할때 타임존에 따라 의도한 값이 리턴되지 않을 수 있습니다.
+### BUG-50597<a name="bug-50597"></a> jdbc에서 date 컬럼을 fetch할때 타임존에 따라 의도한 값이 리턴되지 않을 수 있습니다.
 
 -   **module** : mm-jdbc
 
@@ -686,7 +652,7 @@ Fixed Bugs
     -   Compile Option
     -   Error Code
 
-### BUG-50601<a name=bug-50601></a> 집계 함수를 포함하는 SubQuery Unnest 동작에 결과 오류가 발생합니다.
+### BUG-50601<a name="bug-50601"></a> 집계 함수를 포함하는 SubQuery Unnest 동작에 결과 오류가 발생합니다.
 
 -   **module** : qp
 
@@ -820,7 +786,7 @@ Fixed Bugs
     -   Compile Option
     -   Error Code
 
-### BUG-50607<a name=bug-50607></a> PSM에서 LABEL로 GOTO할 때 SQL cancel이 동작하지 않을 수 있습니다.
+### BUG-50607<a name="bug-50607"></a> PSM에서 LABEL로 GOTO할 때 SQL cancel이 동작하지 않을 수 있습니다.
 
 -   **module** : qp-psm-trigger-execute
 
@@ -858,7 +824,7 @@ Fixed Bugs
     -   Compile Option
     -   Error Code
 
-### BUG-50615<a name=bug-50615></a> WHERE 절에 여러 개의 서브쿼리와 OR 조건을 사용한 경우, SubQuery Unnest 동작에서 결과 오류가 발생할 수 있습니다.
+### BUG-50615<a name="bug-50615"></a> WHERE 절에 여러 개의 서브쿼리와 OR 조건을 사용한 경우, SubQuery Unnest 동작에서 결과 오류가 발생할 수 있습니다.
 
 -   **module** : qp
 
@@ -984,7 +950,7 @@ Fixed Bugs
     -   Compile Option
     -   Error Code
 
-### BUG-50617<a name=bug-50617></a> 이중화 SYNC 수행 중 연속적으로 충돌이 발생시, 충돌 방지 정책에 따라 Replace가 연속으로 수행되면 SYNC Fail이 발생할 수 있습니다.
+### BUG-50617<a name="bug-50617"></a> 이중화 SYNC 수행 중 연속적으로 충돌이 발생시, 충돌 방지 정책에 따라 Replace가 연속으로 수행되면 SYNC Fail이 발생할 수 있습니다.
 
 -   **module** : rp-receiver
 
@@ -1011,7 +977,7 @@ Fixed Bugs
     -   Compile Option
     -   Error Code
 
-### BUG-50642<a name=bug-50642></a> Linux kernel 5에서 altiMon 실행 시, com.altibase.picl.LibLoader.OsNotSupportedException 에러가 발생합니다.
+### BUG-50642<a name="bug-50642"></a> Linux kernel 5에서 altiMon 실행 시, com.altibase.picl.LibLoader.OsNotSupportedException 에러가 발생합니다.
 
 -   **module** : ux-altiMon
 
@@ -1037,8 +1003,7 @@ Fixed Bugs
     -   Compile Option
     -   Error Code
 
-Changes
-=======
+## Changes
 
 ### Version Info
 

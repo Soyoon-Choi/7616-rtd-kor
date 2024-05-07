@@ -1,23 +1,6 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [Altibase 7.1.0.1.2 Release Notes](#altibase-71012-release-notes)
-  - [System Requirements](#system-requirements)
-    - [Minimum Hardware Requirements](#minimum-hardware-requirements)
-    - [Operating Systems and Platforms](#operating-systems-and-platforms)
-  - [Release Notes](#release-notes)
-    - [New Features](#new-features)
-    - [Changes](#changes)
-    - [Packages](#packages)
-    - [Download](#download)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # Altibase 7.1.0.1.2 Release Notes
 
 The final version of the Altibase 7.1 release is 7.1.0.1.2, and maintenance starts from 7.1.0.1.2.
-
-
 
 ## System Requirements
 

@@ -1,11 +1,9 @@
-Patch Notes
+패치 노트
 ======================
-
-Patch Notes Link
 
 .. toctree::
    :maxdepth: 1
-   :caption: Patch Notes
+   :caption: 패치 노트
    :glob:
    
-   ./*
+   *

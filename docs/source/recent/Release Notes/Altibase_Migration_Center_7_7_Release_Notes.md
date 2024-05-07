@@ -1,34 +1,6 @@
-
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-
-- [Altibase Migration Center 7.7 Release Notes](#altibase-migration-center-77-release-notes)
-  - [1.Abstract](#1abstract)
-    - [1.1 System Requirements](#11-system-requirements)
-    - [1.2 Supported Operating Systems and Platforms](#12-supported-operating-systems-and-platforms)
-  - [2. Release Information](#2-release-information)
-    - [2.1 Altibase Migration Center 7.7](#21-altibase-migration-center-77)
-    - [2.2 Changes](#22-changes)
-    - [2.3 Open Source Libraries / Royalty-Free Images Used](#23-open-source-libraries--royalty-free-images-used)
-    - [2.4 Packages](#24-packages)
-    - [2.5 Downloads](#25-downloads)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-</br>
-
-</br>
-
-</br>
-
-Altibase Migration Center 7.7 Release Notes
-===============================
+# Altibase Migration Center 7.7 Release Notes
 
 **(March 22, 2019)**
-
-
 
 ## 1.Abstract
 
