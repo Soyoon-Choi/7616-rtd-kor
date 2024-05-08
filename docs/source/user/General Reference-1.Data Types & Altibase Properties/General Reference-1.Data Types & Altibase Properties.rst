@@ -1,6 +1,8 @@
 General Reference-1.Data Types & Altibase Properties
 ===========================================================
 
+:download:`General Reference-1.Data Types & Altibase Properties 다운로드 <../pdf/General Reference-1.Data Types & Altibase Properties.pdf>`
+
 .. toctree::
    :maxdepth: 2
    :caption: General Reference-1.Data Types & Altibase Properties

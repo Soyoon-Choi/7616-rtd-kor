@@ -1,6 +1,8 @@
 Administrator’s Manual
 =======================================================
 
+:download:`Administrator’s Manual 다운로드 <../pdf/Administrator's Manual.pdf>`
+
 .. toctree::
    :maxdepth: 2
    :caption: Administartor's Manual

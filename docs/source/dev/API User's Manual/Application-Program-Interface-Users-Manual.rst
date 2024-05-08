@@ -3,6 +3,8 @@ Application Program Interface User’s Manual
 
 **Altibase 7.1**
 
+:download:`API User's Manual 다운로드 <../pdf/API User's Manual.pdf>`
+
 .. toctree::
    :maxdepth: 2
    :caption: 목차
