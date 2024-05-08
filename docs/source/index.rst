@@ -12,26 +12,34 @@
 고객지원센터: http://support.altibase.com/kr/
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :hidden:
-   :caption: User's Guide
+   :caption: Home
+
+   user/index
+   dev/index
+   recent/index
+
+.. toctree::
+   :maxdepth: 3
+   :hidden:
+   :caption: 사용자 가이드
 
    user/administrators-manual/0.-Administrators-Manual
    user/Getting Started Guide/Getting-Started-Guide
    user/General Reference-1.Data Types & Altibase Properties/General Reference-1.Data Types & Altibase Properties
-   
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :hidden:
-   :caption: Developer's Guide
+   :caption: 개발자 가이드
 
    API User's Manual </dev/API User's Manual/Application-Program-Interface-Users-Manual>
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :hidden:
-   :caption: Recent Updates
+   :caption: 최근 업데이트
 
    Patch Notes </recent/Patch Notes/index>
    Release Notes </recent/Release Notes/index>
@@ -42,10 +50,10 @@
    <a style="display: none;" rel="me" href="https://fosstodon.org/@readthedocs">Mastodon</a>
 
 사용자 가이드
-    바로가기 :doc:`User's Guide </user/index>`
+   바로가기 :doc:`User's Guide </user/index>`
 
 개발자 가이드
-    바로가기 :doc:`Developer's Guide </dev/index>`
+   바로가기 :doc:`Developer's Guide </dev/index>`
 
 최근 업데이트
-    바로가기 :doc:`Recent Updates</recent/index>`
+   바로가기 :doc:`Recent Updates</recent/index>`

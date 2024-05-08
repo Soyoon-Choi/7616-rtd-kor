@@ -34,11 +34,14 @@ extensions = [
     'sphinx_rtd_theme',
     'myst_parser',
     'sphinx_search.extension',
+    "sphinx_design",
 ]
 
 myst_enable_extensions = [
     "deflist",
 ]
+
+myst_heading_anchors = 7
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -85,9 +88,3 @@ html_css_files = [
 html_favicon = 'faviconV2.ico'
 
 suppress_warnings = ["myst.header"]
-
-latex_engine = 'xelatex'
-latex_use_xindy = False
-latex_elements = {
-    'preamble': '\\usepackage{fontspec}\n',
-}

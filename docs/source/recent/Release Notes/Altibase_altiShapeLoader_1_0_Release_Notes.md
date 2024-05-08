@@ -1,122 +1,13 @@
-altiShapeLoader Release Notes
-================
+# altiShapeLoader Release Notes
 
 #### Release 1.0 (Oct. 15, 2021)
 
 Alitbase® Tools & Utilities
 
-<br><br><br><br><br><br>
-<!-- PDF 변환을 위한 여백입니다. --> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- PDF 변환을 위한 여백입니다. --> 
-
 <div align="left">
     <img src="media/common/e5cfb3761673686d093a3b00c062fe7a.png">
 </div>
 
-
-<br><br><!-- PDF 변환을 위한 여백입니다. --> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- PDF 변환을 위한 여백입니다. --> 
-
-<pre>
-Altibase Release Notes altiShapeLoader
-Release 1.0
-Copyright ⓒ 2001~2022 Altibase Corp. All Rights Reserved.<br>
-This manual contains proprietary information of Altibase® Corporation; it is provided under a license agreement containing restrictions on use and disclosure and is also protected by copyright patent and other intellectual property law. Reverse engineering of the software is prohibited.<br>
-All trademarks, registered or otherwise, are the property of their respective owners.<br>
-<b>Altibase Corp</b>
-10F, Daerung PostTower II,
-306, Digital-ro, Guro-gu, Seoul 08378, Korea
-Telephone : +82-2-2082-1000 
-Fax       : +82-2-2082-1099
-Customer Service Portal : <a href='http://support.altibase.com/en/'>http://support.altibase.com/en/</a>
-Homepage                : <a href='http://www.altibase.com'>http://www.altibase.com</a></pre>
-
-<br>
-
-## Table Of Contents
-
-- [1. Overview](#1-overview)
-  - [1.1 System Requirements](#11-system-requirements)
-- [2. Release Information](#2-release-information)
-  - [2.1 Version](#21-version)
-  - [2.2 New Features](#22-new-features)
-  - [2.3 Bug Fixed](#23-bug-fixed)
-  - [2.4 Properties](#24-properties)
-  - [2.5 Error Messages](#25-error-messages)
-- [3. Open Source Libraries Used](#3-open-source-libraries-used)
-- [4. Packages](#4-packages)
-- [5. Downloads](#5-downloads)
-  - [5.1 Packages](#51-packages)
-
-<br>
 
 ## 1. Overview
 

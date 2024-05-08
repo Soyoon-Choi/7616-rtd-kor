@@ -1,28 +1,27 @@
 Administrator’s Manual
 =======================================================
 
-**Altibase 7.1**
-
-Altibase® Administration
-
-Altibase Administration Administrator's Manual
-Release 7.1
-Copyright ⓒ 2001~2023 Altibase Corp. All Rights Reserved.
-본 문서의 저작권은 ㈜알티베이스에 있습니다. 이 문서에 대하여 당사의 동의없이 무단으로 복제 또는 전용할 수 없습니다.
-㈜알티베이스
-08378 서울시 구로구 디지털로 306 대륭포스트타워Ⅱ 10층
-전화 : 02-2082-1114
-팩스 : 02-2082-1099
-고객서비스포털 : http://support.altibase.com
-홈페이지      : http://www.altibase.com/
-
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 2
    :caption: Administartor's Manual
    :glob:
-
-   ./*
-
-
-
-
+   
+   서문
+   1.-Altibase-소개
+   2.-Altibase-구성요소
+   3.-데이터베이스-생성
+   4.-Altibase-구동-및-종료
+   5.-데이터베이스-객체-및-권한
+   6.-테이블스페이스
+   7.-파티션드-객체
+   8.-트랜잭션-관리
+   9.-버퍼-관리자
+   10.-백업-및-복구
+   11.-증분-백업과-복구
+   12.-서버클라이언트-통신
+   13.-Altibase의-보안
+   14.-데이터베이스-감사
+   15.-Altibase-튜닝
+   16.-Altibase-진단-모니터링
+   A.부록-Trace-Log
+   B.부록-Altibase-최대치
