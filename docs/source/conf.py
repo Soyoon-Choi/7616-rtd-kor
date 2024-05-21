@@ -40,6 +40,8 @@ extensions = [
 
 myst_enable_extensions = [
     "deflist",
+    "colon_fence",
+    "fieldlist",
 ]
 
 myst_heading_anchors = 7

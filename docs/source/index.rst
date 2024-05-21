@@ -28,6 +28,7 @@
    user/administrators-manual/0.-Administrators-Manual
    user/Getting Started Guide/Getting-Started-Guide
    user/General Reference-1.Data Types & Altibase Properties/General Reference-1.Data Types & Altibase Properties
+   user/Installation Guide/Installation-Guide
 
 .. toctree::
    :maxdepth: 3
@@ -41,7 +42,6 @@
    :hidden:
    :caption: 최근 업데이트
 
-   Patch Notes </recent/Patch Notes/index>
    Release Notes </recent/Release Notes/index>
 
 .. Adds a hidden link for the purpose of validating Read the Docs' Mastodon profile
